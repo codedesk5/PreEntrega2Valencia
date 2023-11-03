@@ -1,0 +1,1135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,400;1,700&family=Lato:wght@400;700;900&family=Rubik:wght@300&display=swap');
+
+/*font-family: 'Comic Neue', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Rubik', sans-serif;*/
+
+/*Colors:
+    Oxford Blue: #1B2A41
+    Charcoal: #324A5F
+    Lavender (Web): #CCC9DC */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Comic Neue', cursive;
+}
+
+html {
+    font-size:62.5%;
+    background-color:#324A5F ;
+    scroll-behavior: smooth;
+}
+
+img {
+    border-radius:10px;
+}
+
+
+                                    /*Comienzo del Header*/
+
+header{
+    padding:20px;
+    text-align:center;
+    background-image:url(./Multimedia/Fotos/NosotrosBanner.jpg);
+    height:320px;
+}
+
+header img {
+    width:180px;
+    height:100px;
+}
+
+header h1 {
+    font-size:5rem;
+    margin:20px 0;
+}
+
+header input {
+    color:black;
+    border-radius:15px;
+    width:350px;
+    height:40px;
+    font-size:1.8rem;
+}
+
+header div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:20px;
+    border-radius:10px;
+    font-size:2rem; 
+}
+
+                                    /*Final del Header*/
+
+
+                                    /* Comienzo Menú Navegación*/
+
+.NavMenuBar {
+    display:flex;
+    justify-content: center;
+    background-color: #1B2A41;
+    position:sticky;
+    top:0;
+}
+
+.NavMenuBar a {
+    padding:20px;
+    text-decoration:none;
+    font-size:2.8rem;
+}
+
+.NavMenuBar a:hover {
+    background-color: black;
+    text-decoration: underline;
+}
+
+                                    /*Final Menú Navegación*/
+
+
+
+                                    /* Comienzo de : Nosotros (Index) */
+
+/*Comienzo Contenido y Video*/
+
+.MainContent {
+    height: 400px;
+    margin: 50px 50px;
+    display:flex;
+}
+
+.MainContent .Intro {
+    flex:50%;
+    font-size:2rem;
+    font-weight:bold;
+    text-align: justify;
+}
+
+.MainContent .Intro p {
+    margin:15px 0px;
+}
+
+.MainContent video {
+    flex:50%;
+    width:300px;
+    height:300px;
+    margin-top:50px;
+}
+
+/*Final Contenido y Video*/
+
+
+/*Comienzo de NewsLetter*/
+
+.NewsletterBackground {
+    height: 500px;
+}
+
+.Newsletter{
+    background-image: url(./Multimedia/Fotos/NosotrosNewsletter2.jpg);
+    background-size: cover;
+    margin:50px 300px 50px;
+    border:5px solid white;
+    border-radius:15px;
+    width:800px;
+    display:flex;
+    gap:20px;
+}
+
+.Newsletter img {
+    width:100px;
+    height:400px;
+    padding:20px;
+    border-radius:80px;
+    margin:40px 0px 0px 50px;
+    flex:50%; 
+}
+
+.NewsletterForm {
+    margin:50px;
+    flex:50%;
+}
+
+.NewsletterForm h2 {
+    font-size:4rem;
+    margin:20px 0px;
+}
+
+.NewsletterForm p {
+    font-size:2.8rem;
+}
+
+.NewsletterForm .InputText{
+    color:black;
+    border:2px solid black;
+    height:30px;
+    width:250px;
+    font-size:1.8rem;
+    border-radius:10px;
+    margin:15px 0px;
+    display:block;
+}
+
+.NewsletterForm .InputButton{
+    color:black;
+    border:2px solid black;
+    border-radius:5px;
+    padding:10px;
+    margin:0px 100px;
+    cursor:pointer;
+}
+
+.NewsletterForm .InputButton:hover{
+    background-color: black;
+    color:white;
+}
+
+/*Final de NewsLetter*/
+
+                                /* Final de : Nosotros (Index) */
+
+
+
+                                    /*Comienzo de: Contenido*/
+
+/*Comienzo de Header*/
+
+.headerContenido{
+    background-image: url(./Multimedia/Fotos/ContenidoBanner.jpg);
+    background-size: cover;
+}
+
+/*Final de Header*/
+
+
+/* Comienzo de Sistema Solar*/
+
+.SolarSystem {
+    height:400px;
+    padding:50px;
+    display:flex;
+    gap:40px;
+}
+
+.SolarSystem img {
+    width:300px;
+    height:300px;
+    flex:45%
+}
+
+.SolarSystem p {
+    font-size: 2rem;
+    margin:20px 0px 0px;
+    font-weight:bold;
+    text-align:justify;
+    flex:55%;
+}
+
+/* Final de Sistema Solar*/
+
+
+/*Comienzo De Navegación de Planetas*/
+
+.NavSolarSystem{
+    height:400px;
+}
+
+.NavSolarSystemContainer {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.NavSolarSystemContainer h1 {
+    font-size:3rem;
+    text-align:center;
+}
+
+.NavSolarSystem div {
+    background-color:#CCC9DC ;
+    border:2px solid black;
+    width:150px;
+    border-radius:15px;
+    margin:50px 620px;
+}
+
+.NavSolarSystem a {
+    display:block;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+    font-size:2rem;
+    padding:10px;
+    font-weight:bold;
+}
+
+.NavSolarSystem a:hover{
+    background-color:#1B2A41 ;
+    text-decoration: underline;
+    color:white;
+    border-radius:15px;
+}
+
+/*Final De Navegación de Planetas*/
+
+
+/*Comienzo de Planetas*/
+
+.Planets {
+    height:4050px;
+}
+
+.Planet {
+    width:1200px;
+    display:flex;
+    gap:50px;
+    border:2px solid black;
+    border-radius:15px;
+    background-color:#CCC9DC;
+    margin:50px 100px;
+    padding:20px;
+}
+
+.Planet img {
+    width: 300px;
+    height: 200px;
+    margin-left:40px;
+    object-fit: cover;
+}
+
+.Planet p {
+    font-size: 2rem;
+    font-weight: bold;
+    color:black;
+    text-align: justify;
+    margin-top:30px;
+    margin-right:30px;
+}
+
+.Planet a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.4rem;
+    border:2px solid black;
+    padding:3px;
+    margin: 0px 300px;
+    border-radius:10px;
+}
+
+.Planet a:hover{
+    background-color:#1B2A41 ;
+    text-decoration: underline;
+    color:white;
+}
+
+.Planet span {
+    color:black;
+    font-weight: bold;
+    font-size:3rem;  
+}
+
+.Sun img {
+    margin-top:40px;
+}
+
+.Mercury img {
+    margin-top:90px;
+}
+
+.Venus img {
+    margin-top:80px;
+}
+
+.Earth img {
+    margin-top:90px;
+}
+
+.Mars img {
+    margin-top:100px; 
+}
+
+.Jupiter img {
+    margin-top:100px; 
+}
+
+.Saturn img {
+    margin-top:85px; 
+}
+
+.Uranus img {
+    margin-top:90px; 
+}
+
+.Neptune img {
+    margin-top:65px; 
+}
+
+/*Final de Planetas*/
+
+                                    /*Final de: Contenido*/
+
+
+
+                                     /*Comienzo de: Recursos*/
+
+/*Comienzo de Header*/
+
+.HeaderRecursos {
+    background-image: url(./Multimedia/Fotos/RecursosBanner.jpg);
+    background-size:cover;
+    background-position: 0px 30%;
+}
+
+/*Final de Header*/
+
+
+/* Comienzo de Información Adicional*/
+
+h2 {
+    text-align:center;
+    font-size:3rem;
+    margin-top:40px; 
+}
+
+.Tabla_Privadas {
+    margin:40px 280px;
+}
+
+.TablaEstatales {
+    margin-top:40px;
+    margin-left:350px;
+}
+
+table tr .Foto_Logo {
+    width:200px;
+    height:150px;
+    margin:10px;
+}
+
+table,td,th {
+    border:2px white solid;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+table tr {
+    font-size:2.5rem;
+}
+
+table td {
+    font-size:2.5rem;
+}
+
+table .masinfo {
+    width:150px;
+}
+
+.Tabla_Privadas #Descripcion_SpaceX {
+    width:400px;
+}
+
+/* Final de Información Adicional*/
+
+
+/*Comienzo de Noticias*/
+
+.NewsContainer{
+    height:1100px;
+    display:grid;
+    grid-template-rows:500px 500px;
+    grid-template-columns: 400px 400px;
+    gap:50px;
+}
+
+.News {
+    background-color:#CCC9DC;
+    width:400px;
+    height:470px;
+    margin:50px 290px;
+    padding:25px;
+    font-size:2rem;
+    border-radius:10px;
+}
+
+.News img {
+    border-radius:10px;
+    width:250px;
+    height:200px;
+    margin:0px 45px;
+}
+
+.News p {
+    color:black;
+    text-align: justify;
+    margin:20px 0px;
+    font-weight:bold;
+}
+
+.News a{
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    border:2px solid black;
+    margin: 0px 120px;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.News a:hover{
+    background-color: #1B2A41;
+    color:white;
+    text-decoration:underline;
+}
+
+.NewsContainer .three {
+    padding:20px;
+}
+
+/*Final de Noticias*/
+
+                                      /*Final de: Recursos*/
+
+
+
+                                      /*Comienzo de Galería*/
+
+
+/*Comienzo de Header*/
+
+.HeaderGaleria {
+    background-image: url(./Multimedia/Fotos/GaleriaBanner.jpg);
+    background-size: cover;
+    background-position: 10%;
+}
+
+/*Comienzo de Header*/
+
+/*Comienzo de Fotos*/
+
+.GallerySection {
+    height: 1000px;
+}
+
+.item{
+    border:3px solid white;
+    background-size: cover;
+    background-position: center;
+    border-radius:10px;
+}
+
+.GalleryContainer {
+    width:600px;
+    height:800px;
+    margin:50px 250px;
+    display:grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat (3, 200px);
+    gap:20px;
+    grid-template-areas:
+    "img1 img1 img2 img3"
+    "img4 img5 img6 img6"
+    "img7 img5 img8 img9"
+    "img10 img11 img12 img12"
+}
+
+.item1 {
+    grid-area: img1;
+    background-image: url(./Multimedia/Fotos/GaleriaGalaxia.jpg);
+}
+
+.item2 {
+    grid-area: img2;
+    background-image: url(./Multimedia/Fotos/GaleriaAstronauta.jpg);
+}
+
+.item3 {
+    grid-area: img3;
+    background-image: url(./Multimedia/Fotos/GaleriaAsteroid.jpg);
+}
+
+.item4 {
+    grid-area: img4;
+    background-image: url(./Multimedia/Fotos/GaleriaBlackHole.jpg);
+}
+
+.item5 {
+    grid-area: img5;
+    background-image: url(./Multimedia/Fotos/GaleriaAmerica.jpg);
+}
+
+.item6 {
+    grid-area: img6;
+    background-image: url(./Multimedia/Fotos/GaleriaGalaxia2.jpg);
+}
+
+.item7 {
+    grid-area: img7;
+    background-image: url(./Multimedia/Fotos/GaleriaLuna.jpg);
+}
+
+.item8 {
+    grid-area: img8;
+    background-image: url(/Multimedia/Fotos/GaleriaSatelite.jpg);
+}
+
+.item9 {
+    grid-area: img9;
+    background-image: url(./Multimedia/Fotos/GaleriaSpaceX.webp);
+}
+
+.item10 {
+    grid-area: img10;
+    background-image: url(./Multimedia/Fotos/GaleriaTierra.jpg);
+}
+
+.item11 {
+    grid-area: img11;
+    background-image: url(./Multimedia/Fotos/GaleriaSpaceX2.jpg);
+}
+
+.item12 {
+    grid-area: img12;
+    background-image: url(./Multimedia/Fotos/GaleriaComet.webp);
+}
+
+/* Final de Fotos*/
+
+
+/*Comienzo de Videos*/
+
+.VideoSection {
+    height:800px;
+}
+
+.VideoContainer h2 {
+    text-align:center;
+}
+
+.VideoContainer {
+    margin:50px 90px;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: repeat (2, 1fr) ;
+    column-gap:400px;
+    row-gap:20px;
+}
+
+
+/*Final de Videos*/
+
+                                      /*Final de Galería*/
+
+
+
+                                      /*Comienzo de Contacto con BOOTSTRAP*/
+
+/*Comienzo de Header*/
+
+.HeaderContacto {
+    background-image: url(./Multimedia/Fotos/ContactoBanner.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+#Beginning h1 {
+    font-weight:bold;
+}
+
+/*Final de Header*/
+
+
+/*Comienzo de NavBar*/
+
+.NavBackground {
+    background-color: #1B2A41;
+    height:70px;
+}
+
+.NavBar {
+    padding:10px;
+}
+
+.NavItems a {
+    color:white;
+    text-decoration: none;
+    padding:18px;
+    font-size:2.8rem;
+}
+
+.NavItems a:hover {
+    background-color: black;
+    text-decoration: underline;
+}
+
+.PIntro p {
+    font-size:2rem;
+}
+
+.IntroImg img {
+    height: 300px;
+    width: 300px;
+}
+
+/*Final de NavBar*/
+
+
+/*Comienzo de Introducción*/
+
+.IntroSection {
+    background-color: #324A5F;
+    height:400px;
+}
+
+/*Comienzo de Introducción*/
+
+
+/*Comienzo de Form*/
+
+.FormSection {
+    background-color: #324A5F;
+    height:450px;
+}
+
+.Formborder {
+    border:2px solid black;
+    background-color: #CCC9DC;
+    height:400px;
+    width:700px;
+    margin:0px 300px;
+    border-radius:15px;
+    background-image: url(./Multimedia/Fotos/contactoForm.jpg);
+    background-size: cover;
+}
+
+.Formborder h3{
+    font-weight:bold;
+    font-size:2.5rem;
+}
+
+.form1 input{
+    margin:10px;
+    color:black;
+    font-size:2rem;
+}
+
+.form2 option {
+    font-size: 1.5rem;
+}
+
+
+
+                                      /*Final de Contacto con BOOTSTRAP*/
+
+
+
+                                      /*Comienzo de Footer*/
+
+footer{
+    background-color: #CCC9DC ;
+}
+
+.FooterContainer {
+    padding:40px;
+    display:flex;
+    justify-content: center;
+    gap:250px;
+}
+
+.FooterContainer .ImageMotto {
+    width:150px;
+    height:90px;
+    display:flex;
+}
+
+.FooterContainer .ImageMedia {
+    width:180px;
+    height:110px;
+}
+
+.FooterMenuBar a {
+    display:block;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-size:1.8rem;
+}
+
+.FooterMenuBar a:hover{
+    background-color: black;
+    color:white;
+    text-decoration: underline;
+}
+
+.FloatingButton img {
+    width:20px;
+    height:20px;
+    position: fixed;
+    bottom:15px;
+    right:40px;
+    border-radius:50%;
+}
+
+.FloatingButton img:hover{
+    width:40px;
+    height:40px;
+    transition:0.7s;
+    border:3px solid black;
+}
+
+                                    /*Final de Footer*/
+
+
+
+
+                                    /* Responsive Design Mobile (360 X 480)*/
+
+/* Comienzo Header y Footer*/
+
+@media (max-width:360px) {
+
+    header{
+        background-size: cover;
+        height:340px; 
+    }
+
+    header h1 {
+        font-size:2.8rem;
+    }
+
+    header input {
+        width:250px;
+    }
+
+    .NavMenuBar a {
+        padding:10px;
+        font-size:1.3rem;
+    }
+
+    .FooterContainer {
+        gap:40px;
+    }
+    
+    .FooterContainer .ImageMotto {
+        width:100px;
+        height:40px;
+    }
+    
+    .FooterContainer .ImageMedia {
+        width:120px;
+        height:50px;
+    }
+    
+    .FooterMenuBar a {
+        font-size:1.2rem;
+    }
+
+    .FloatingButton img {
+        width:20px;
+        height: 20px;
+        right:10px;
+    }
+
+    .FloatingButton img:hover {
+        width:30px;
+        height: 30px;
+    }
+}
+
+/* Final Header y Footer*/
+
+
+/* Comienzo Nosotros*/
+
+@media (max-width:360px) {
+
+    .MainContent {
+        flex-direction: column;
+        height: 580px;
+        margin: 30px 30px;
+    }
+
+    .MainContent .Intro {
+        font-size:1.3rem; 
+    }
+        
+    .Newsletter{
+        margin:50px 30px 50px;
+        width:300px;
+        display:flex;
+        flex-direction: column; 
+    }
+    
+    .Newsletter img {
+        width:150px;
+        height:450px;
+        margin:10px 75px -40px;
+    }
+    
+    .NewsletterForm {
+        margin:15px;
+    }
+    
+    .NewsletterForm h2 {
+        font-size:2rem;
+        margin:20px 0px;
+    }
+    
+    .NewsletterForm p {
+        font-size:1.5rem;
+        text-align: center;
+    }
+    
+    .NewsletterForm .InputText{
+        color:black;
+        border:2px solid black;
+        height:30px;
+        width:250px;
+        font-size:1.8rem;
+        border-radius:10px;
+        margin:15px 0px;
+        display:block;
+    }
+}
+
+/*Final de  Nosotros*/
+
+
+/*Comienzo de Contenido*/
+
+@media(max-width:360px) {
+
+    .SolarSystem {
+        height:520px;
+        flex-direction:column;
+        gap:20px;
+    }
+    
+    .SolarSystem img {
+        width:250px;
+        height:250px;
+    }
+
+    .SolarSystem p {
+        font-size: 1.3rem;
+    }
+
+    .NavSolarSystem{
+        height:330px;
+    }
+    
+    .NavSolarSystemContainer h1 {
+        font-size:2.5rem;
+    }
+    
+    .NavSolarSystem div {
+        margin:50px 100px;
+    }
+    
+    .NavSolarSystem a {
+        font-size:1.3rem;
+    }
+    
+    .Planets {
+        height:6500px;
+    }
+    
+    .Planet img {
+        width: 200px;
+        height: 200px;
+        margin:20px 29px 10px;
+    }
+    
+    .Planet p {
+     font-size: 1.3rem;
+     margin-left:15px;
+    }
+    
+    .Planet {
+        width:300px;
+        flex-direction: column;
+        gap:5px;
+        margin:35px;
+        padding:20px;
+    }
+    
+    .Planet a{
+        font-size:1.4rem;
+        margin: 20px 90px;
+        border-radius:10px;
+    }
+}
+
+/*Final de Contenido*/
+
+
+/*Comienzo de Recursos*/
+
+@media (max-width:360px){
+    
+    .Tabla_Privadas {
+        margin:40px 40px;
+    }
+
+    .TablaEstatales {
+        margin-top:40px;
+        margin-left:40px;
+    }
+
+    table tr .Foto_Logo {
+        width:100px;
+        height:100px;
+        margin:10px;
+    }
+
+    table tr {
+        font-size:1rem;
+    }
+
+    table td {
+        font-size:1rem;
+    }
+
+    table .masinfo {
+        width:60px;
+    }
+
+    .NewsContainer{
+        height:1500px;
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .News {
+        width:280px;
+        height:290px;
+        margin:30px 40px;
+        font-size:1.4rem;
+    }
+
+    .News img {
+
+        width:150px;
+        height:100px;
+        margin:0px 45px;
+    }
+
+    .News a{
+        font-size:1rem;
+        margin: 0px 90px;
+    }
+
+    .News a:hover{
+        background-color: #1B2A41;
+        color:white;
+        text-decoration:underline;
+    }
+
+    .NewsContainer .two {
+        padding:20px;
+        height: 320px;
+    }
+
+    .NewsContainer .three {
+        padding:20px;
+        height: 320px;
+    }
+
+}
+
+/*Final de Recursos*/
+
+
+/*Comienzo de Galería*/
+
+@media (max-width:360px){
+
+    .GallerySection {
+        height: 1100px;
+    }
+
+    .GalleryContainer {
+        width:400px;
+        height:1000px;
+        margin:50px 30px;
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat (8, 150px);
+        gap:10px;
+        grid-template-areas:
+            "img1 img1"
+            "img2 img3"
+            "img4 img5"
+            "img7 img5"
+            "img6 img6"
+            "img8 img9"
+            "img10 img11"
+            "img12 img12"
+    }
+
+    .VideoSection {
+        height:1280px;
+    }
+
+    .VideoContainer {
+        margin:50px 60px;
+        display:grid;
+        grid-template-columns: 200px;
+        row-gap:20px;
+    }
+
+    .VideoContainer .video iframe{
+        width:250px;
+        height:250px;
+        margin-top:10px;
+    }
+
+}
+
+/*Final de Galería*/
+
+/*Comienzo de Contacto*/
+
+@media (max-width:360px){
+
+    .IntroSection {
+        height:600px;
+    }
+
+    .NavBackground {
+        height:40px;
+    }
+
+    .NavItems a {
+        font-size:1.3rem;
+        padding:5px;
+    }
+
+    .PIntro p{
+        font-size:1.3rem;
+        margin:20px;
+    }
+
+    .FormSection {
+        height:500px;
+        background-color: #324A5F;
+    }
+
+    .Formborder {
+        height:495px;
+        width:340px;
+        margin:0px 10px;
+    }
+
+    .textareaform textarea{
+        width:300px;
+    }
+    
+}
+
+/*Final de Contacto*/
+    
+  
+
+/*Final de Mobile (360px)*/
